@@ -1,0 +1,31 @@
+This file includes:
+
+requests: For making HTTP requests to fetch the webpage content.
+beautifulsoup4: For parsing HTML and extracting data from the webpage.
+pandas: For creating and manipulating DataFrames.
+tabulate: For creating nicely formatted tables.
+plotly: For creating interactive visualizations.
+
+### Explanation
+
+tabulate: Used for printing tables in a readable format in the console.
+plotly: Used for creating interactive visualizations and plots.
+
+You can save this content in a file named `requirements.txt` in your project directory.
+
+Installing Dependencies
+
+To install the dependencies listed in `requirements.txt`, 
+
+run:
+pip install -r requirements.txt
+
+
+This will install all the necessary packages for your data scraping project. If you need to specify versions for any packages, you can do so in the format `package==version`, like this:
+requests==2.25.1
+beautifulsoup4==4.9.3
+pandas==1.2.4
+tabulate==0.8.9
+plotly==4.14.3
+
+This ensures that specific versions of the packages are installed, which can help maintain consistency across different environments.
