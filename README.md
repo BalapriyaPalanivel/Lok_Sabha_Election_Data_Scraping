@@ -39,18 +39,11 @@ data-scraping-project/
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/yourusername/data-scraping-project.git
-    cd data-scraping-project
+    git clone https://github.com/BalapriyaPalanivel/Lok_Sabha_Election_Data_Scraping.git
+    cd Lok_Sabha_Election_Data_Scraping
     ```
 
-2. **Create a Virtual Environment**
-
-    ```sh
-    python -m venv venv
-    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-    ```
-
-3. **Install Dependencies**
+2. **Install Dependencies**
 
     ```sh
     pip install -r requirements.txt
@@ -61,7 +54,7 @@ data-scraping-project/
 1. **Run the Data Scraping Script**
 
     ```sh
-    python main.py
+    Lok_Sabha_Election_Data_Scraping.ipynb
     ```
 
     This script will scrape the data from the Election Commission of India's results website and save it to `results.csv`.
@@ -72,16 +65,7 @@ data-scraping-project/
 
 3. **Generate Insights**
 
-    The insights have been provided in the `insights_report.txt` file.
+    The insights have been provided in the `Data_scraping_Report.txt` file.
 
-## Contributing
 
-If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-Feel free to customize the content based on your project's specifics. If you need further adjustments or additional sections, let me know!
